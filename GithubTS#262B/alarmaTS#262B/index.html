@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Alarma</h1>
+    <link href="css/css.css" rel="stylesheet">
+</head>
+<body>
+    <label>Contador navideño</label>
+    <br>
+    <input type="number" id="seconds" min="0">
+    <br>
+<button onclick="start()">Inciar</button>
+<button onclick="restart()">Reiniciar</button>
+<h2 id="salida">OFF</h2>
+<audio id="alarma"><!--controls es para que muestre el play el volumen y cositas asi-->
+    <source src="luce.mp3" type="audio/mpeg">
+    Reproduciendo audio de luces chinitas navideñas <!--Es por si no aparece el audio-->
+</audio>
+   <script src="script.js"></script> 
+</body>
+</html>

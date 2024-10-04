@@ -1,0 +1,17 @@
+body{
+    align-items: center;
+    text-align: center;
+    background-image: url('../img/navi.jpg');
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+}
+h1{
+    background-color: rgba(128, 158, 255, 0.658);
+    text-align: center;
+}
+button{
+    background-color: rgb(94, 153, 231);
+    border-radius: 30px;
+}
+
+/*calcu, prom alarma dado */

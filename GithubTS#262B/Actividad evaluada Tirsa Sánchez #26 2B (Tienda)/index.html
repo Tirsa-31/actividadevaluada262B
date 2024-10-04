@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/css.css" rel="stylesheet">
+    <title>Evaluación</title>
+</head>
+<body>
+
+    <div id="banner">
+    <h1>Bienvenido a la tienda de bolsos</h1>
+    <img src="img/bolsas.png" width="300px" height="300px">
+    </div>
+    <br>
+    <div id="nota">
+    <p>Nota: SI compra entre 6 o 12 unidades obtiene el 25% el resto tiene 10% de descuento
+        Advertencia solo se puede comprar productos entre 1 y 12 unidades </p>
+        </div>
+        <div id="fondo1">
+    <br>
+    <label>Ingrese la cantidad de bolsos que quiere comprar </label>
+    <br>
+    <br>
+    <input type="number" id="precio" min="1" max="12">
+    <br>
+    <br>
+    <button onclick="compra()">Compra</button>
+    <br>
+    <br>
+    <p id="salida"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
