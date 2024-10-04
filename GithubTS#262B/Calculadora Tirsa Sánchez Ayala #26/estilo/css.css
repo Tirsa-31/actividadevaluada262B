@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(68, 152, 152);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+/*La parte de la imagen de la calculadora*/
+.bigbanner{
+    font-size: 30px;
+   background-image: url(../img/calcu1.jpg);
+   border-top: 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color:black ;
+   text-align: center;
+}
+/*Es el titulo en negro del banner*/
+.textobanner{
+    background-color: #faf9f961;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*En si ya es la caja donde se ubica la calcu, los datos y respuesta*/
+.opera{ 
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: azure;
+    background-color:rgb(25, 72, 72);
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #25385f;
+    border-width: 1px;
+    font-size: 20px;
+}
+button{
+    background-color: rgb(104, 160, 160);
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;  
+    font-size: 20px;
+}
+
+footer{
+    font-style: italic;
+    color: antiquewhite;
+   background-color:  rgb(37, 82, 82);
+   text-align: center;
+   padding: 10px 0;
+   margin-top: auto;
+}

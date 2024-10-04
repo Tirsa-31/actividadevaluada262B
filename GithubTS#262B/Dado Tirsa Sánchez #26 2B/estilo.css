@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(96, 171, 221);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+}
+button{
+    background-color: rgb(14, 14, 92);
+    color: antiquewhite;
+    border-radius: 7px;
+    font-size: 25px;
+}
+h1{
+    background-color: rgb(16, 16, 51);
+    text-align: center;
+    color: antiquewhite;
+}
